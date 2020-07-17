@@ -62,9 +62,9 @@ def speakSpell(audioFile):
     N_FEATURES = 26 #Number of MFCC features to use. Default: 26
     N_CONTEXT = 9 #Size of the context window used for producing timesteps in the input vector. Default: 9
     #MOD = str(getFile('http://map-courses.usc.edu/codecollective/CCC/IVO/models/output_graph.pbmm', 'output_graph.pbmm')) #WILL NEED TO HOST ELSEWHERE WITH HIGHER SPEED/SIZE...CORS ISSUE??
-    MOD = 'output_graph.pbmm'
+    MOD = 'models/output_graph.pbmm'
     #ALPHABET = str(getFile('http://map-courses.usc.edu/codecollective/CCC/IVO/models/alphabet.txt', 'alphabet.txt'))
-    ALPHABET = 'alphabet.txt'
+    ALPHABET = 'models/alphabet.txt'
     LM = ''#'lm.binary'
     TRIE = ''#'trie'#'models/trie'
     EXTENDED = ''
